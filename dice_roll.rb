@@ -7,7 +7,7 @@ def roll
 end
 
 def roll
-  Array.new(){
+  Array.new(num){
     rand(1...6)
   }
 end
